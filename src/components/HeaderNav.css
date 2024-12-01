@@ -1,0 +1,31 @@
+/* src/HeaderNav.css */
+.header-nav {
+    background-color: oklch(var(55.3% 0.086 208.538) / var(0.5));
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333; /* Change this to your preferred text color */
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #007BFF; /* Change this to your preferred hover color */
+}
